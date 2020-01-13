@@ -1,0 +1,553 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2017-05-19 22:40+0000\n"
+"PO-Revision-Date: 2017-05-20 00:50+0200\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.1\n"
+
+msgid "Note: Deposit amount is affected by settings for fees, taxes & shipping handling"
+msgstr "Aanbetalingsbedrag is afhankelijk van instellingen voor kosten, belastingen en afhandeling verzending"
+
+msgid "Fees Collection Method"
+msgstr "Methode kosteninning"
+
+msgid "Choose how to handle fees."
+msgstr "Kies de manier waarop kosten worden afgehandeld."
+
+msgid "Collect Fees with deposit"
+msgstr "Kosten innen bij aanbetaling"
+
+msgid "Collect Fees with second payment"
+msgstr "Kosten innen bij tweede betaling"
+
+msgid "Enable Second Payment Reminder"
+msgstr "Schakel herinnering tweede betaling in"
+
+msgid "Uncheck this to prevent sending second payment reminder email. (You can always send a reminder manually from order actions )"
+msgstr "Schakel dit uit om te voorkomen dat er een herinneringsmail voor de tweede betaling wordt verzonden. (U kunt altijd handmatig een herinnering sturen vanuit bestelacties)"
+
+msgid "Days before Second Payment reminder "
+msgstr "Dagen tot herinnering tweede betaling "
+
+msgid "Duration between partial payment and second payment reminder (in days)"
+msgstr "Periode tussen gedeeltelijke betaling en herinnering tweede betaling (in dagen)"
+
+msgid "Deposit on Checkout Mode"
+msgstr "Modus aanbetaling bij afrekenen"
+
+msgid "Enable checkout mode"
+msgstr "Modus afrekenen inschakelen"
+
+msgid "changes the way deposits work to be based on total amount at checkout button"
+msgstr "verandert de manier waarop aanbetalingen werken naar gebaseerd op totaalbedrag bij knop afrekenen"
+
+msgid "Deposit amount "
+msgstr "Aanbetalingsbedrag "
+
+msgid "Check this to enable checkout mode, which makes deposits calculate based on total amount during checkout instead of per product"
+msgstr "Schakel dit in om modus afrekenen in te schakelen, waardoor de aanbetaling wordt berekend op basis van het totaalbedrag bij het afrekenen in plaats van per product"
+
+msgid "Amount of deposit ( should not be more than 99 for percentage or more than order total for fixed"
+msgstr "Bedrag van de aanbetaling (mag niet meer zijn dan 99 zijn indien percentage of meer dan totaal bestelling indien vast"
+
+msgid "Amount Type"
+msgstr "Soort bedrag"
+
+msgid "Choose amount type"
+msgstr "Kies soort bedrag"
+
+msgid "â€” No Change â€”"
+msgstr "â€” Geen wijziging â€”"
+
+msgid "This is a reminder of  partially-paid order  sent to the customer after specific period of time assigned in settings, containing order details and a link to pay the remaining balance."
+msgstr "Dit is een herinnering voor een gedeeltelijke betaling die naar de klant wordt gestuurd na een hoeveelheid tijd die in de instellingen wordt opgegeven en die informatie bevat over de bestelling en een link om het resterende saldo te betalen."
+
+msgid "Second Payment Reminder"
+msgstr "Herinnering tweede betaling"
+
+msgid "Your {site_title} order second payment reminder {order_date}"
+msgstr "Herinnering tweede betaling {order_date} van uw {site_title}-bestelling"
+
+msgid "Kindly be reminded that your order's second payment is still pending payment"
+msgstr "Denk eraan dat de tweede betaling van uw bestelling nog niet is voldaan"
+
+msgid "Deposit"
+msgstr "Aanbetaling"
+
+msgid "Second Payment"
+msgstr "Tweede betaling"
+
+msgid "Enable deposit"
+msgstr "Schakel aanbetaling in"
+
+msgid "Enable this to require a deposit for this item."
+msgstr "Schakel dit in om een aanbetaling voor dit item te vereisen."
+
+msgid "Force deposit"
+msgstr "Vereis aanbetaling"
+
+msgid "If you enable this, the customer will not be allowed to make a full payment."
+msgstr "Als u dit inschakelt, mag de klant geen volledige betaling verrichten."
+
+msgid "Specify the type of deposit:"
+msgstr "Geef het type aanbetaling op:"
+
+msgid "Fixed value"
+msgstr "Vaste waarde"
+
+msgid "Percentage of price"
+msgstr "Percentage van prijs"
+
+msgid "Deposit amount"
+msgstr "Aanbetalingsbedrag"
+
+msgid "This is the minimum deposited amount.<br/>Note: Tax will be added to the deposit amount you specify here."
+msgstr "Dit is het minimale aanbetalingsbedrag.<br/>Let op: aan het aanbetalingsbedrag dat u hier opgeeft, wordt belasting toegevoegd."
+
+msgid "Multiply by persons"
+msgstr "Vermenigvuldig met personen"
+
+msgid "Enable this to multiply the deposit by person count. (Only works when Fixed Value is active)"
+msgstr "Schakel dit in om de aanbetaling met het aantal personen te vermenigvuldigen. (Werkt alleen als 'Vaste waarde' is geactiveerd)"
+
+msgid "Deposit Options"
+msgstr "Aanbetalingsopties"
+
+msgid "— No Change —"
+msgstr "— Geen wijziging —"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nee"
+
+msgid "Fixed"
+msgstr "Vast"
+
+msgid "Percentage"
+msgstr "Percentage"
+
+msgid "Deposit Amount"
+msgstr "Aanbetalingsbedrag"
+
+msgid "Change to:"
+msgstr "Wijzig in:"
+
+msgid "Increase by (fixed amount or %):"
+msgstr "Verhoog met (vast bedrag of %):"
+
+msgid "Decrease by (fixed amount or %):"
+msgstr "Verlaag met (vast bedrag of %):"
+
+#, php-format
+msgid "Enter Deposit Amount (%s)"
+msgstr "Voer aanbetalingsbedrag in (%s)"
+
+msgid "Deposits"
+msgstr "Aanbetalingen"
+
+msgid "Year"
+msgstr "Jaar"
+
+msgid "Last Month"
+msgstr "Laatste maand"
+
+msgid "This Month"
+msgstr "Deze maand"
+
+msgid "Last 7 Days"
+msgstr "Afgelopen 7 dagen"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Export CSV"
+msgstr "Exporteren naar CSV"
+
+#, php-format
+msgid "%s deposits in total"
+msgstr "%s aanbetalingen in totaal"
+
+#, php-format
+msgid "%s remaining in total"
+msgstr "%s resterend in totaal"
+
+#, php-format
+msgid "%s partially-paid in total"
+msgstr "%s gedeeltelijk betaald in totaal"
+
+msgid "Number of deposits"
+msgstr "Aantal aanbetalingen"
+
+msgid "Paid deposits"
+msgstr "Betaalde aanbetalingen"
+
+msgid "Order Remaining in Total"
+msgstr "Bestelling resterend in totaal"
+
+msgid "Upadated successfully"
+msgstr "Geüpdatet"
+
+msgid "Update Outdated Orders"
+msgstr "Update verouderde orders"
+
+msgid "if there are orders created using a previous version of Woocommerce Deposits(1.0 ~ 1.6), an update for these orders is required to display correctly"
+msgstr "Als er orders zijn die aangemaakt zijn met een vorige versie van Woocommerce Deposits (1.0 ~ 1.6), dan moeten deze orders geüpdatet worden om correct weergegeven te kunnen worden"
+
+msgid "Deposit Buttons Primary Colour"
+msgstr "Aanbetalingsknoppen primaire kleur"
+
+msgid "Deposit Buttons Secondary Colour"
+msgstr "Aanbetalingsknoppen secundaire kleur"
+
+msgid "Deposit Buttons Highlight Colour"
+msgstr "Aanbetalingsknoppen markeringskleur"
+
+msgid "Site-wide Settings"
+msgstr "Sitebrede instellingen"
+
+msgid "Disable Deposits"
+msgstr "Schakel aanbetalingen uit"
+
+msgid "Check this to disable all deposit functionality with one click."
+msgstr "Vink dit aan om met één klik alle aanbetalingsfuncties uit te schakelen."
+
+msgid "Default Selection"
+msgstr "Standaardselectie"
+
+msgid "Select the default deposit option."
+msgstr "Kies de standaard aanbetalingsoptie."
+
+msgid "Pay Deposit"
+msgstr "Betaal aanbetaling"
+
+msgid "Full Amount"
+msgstr "Volledig bedrag"
+
+msgid "Display Taxes"
+msgstr "Geef belastingen weer"
+
+msgid "Check this to count taxes as part of deposits for purposes of display to the customer."
+msgstr "Vink dit aan om belastingen mee te tellen als onderdeel van aanbetalingen om aan de klant te tonen."
+
+msgid "Check this to count taxes as part of deposits for purposes of display to the customer. (Taxes are always collected upfront)"
+msgstr "Vink dit aan om belastingen mee te tellen als onderdeel van aanbetalingen om aan de klant te tonen. (Belastingen worden altijd van tevoren geïnd)"
+
+msgid "Taxes Collection Method"
+msgstr "Methode belastinginning"
+
+msgid "Choose how to handle taxes."
+msgstr "Kies de manier waarop belasting worden afgehandeld."
+
+msgid "Collect Taxes with deposit"
+msgstr "Belasting innen bij aanbetaling"
+
+msgid "Collect Taxes with second payment"
+msgstr "Belasting innen bij tweede betaling"
+
+msgid "Shipping Handling Method"
+msgstr "Methode afhandeling verzending"
+
+msgid "Choose how to handle shipping."
+msgstr "Kies de manier waarop de verzending wordt afgehandeld."
+
+msgid "Collect Shipping fees with deposit"
+msgstr "Verzendkosten innen bij aanbetaling"
+
+msgid "Collect Shipping fees with second payment"
+msgstr "Verzendkosten innen bij tweede betaling"
+
+msgid "Reduce Stocks On"
+msgstr "Voorraden verminderen aan"
+
+msgid "Choose when to reduce stocks."
+msgstr "Kies wanneer voorraden moeten worden verminderd."
+
+msgid "Deposit Payment"
+msgstr "Aanbetalingsbetaling"
+
+msgid "Full Payment"
+msgstr "Volledige betaling"
+
+msgid "Enable Second Payment"
+msgstr "Schakel tweede betaling in"
+
+msgid "Uncheck this to prevent the customer from making the second payment. (You'll have to manually mark the order as completed)"
+msgstr "Schakel dit uit om te voorkomen dat de klant de tweede betaling doet. (U moet de bestelling handmatig markeren als voltooid)"
+
+msgid "Buttons"
+msgstr "Knoppen"
+
+msgid "No HTML allowed. Text will be translated to the user if a translation is available.<br/>Please note that any overflow will be hidden, since button width is theme-dependent."
+msgstr "Geen HTML toegestaan. Tekst wordt vertaald voor de gebruiker als een vertaling beschikbaar is.<br/>Let op: te lange tekst wordt verborgen, aangezien de knopbreedte afhankelijk van het thema is."
+
+msgid "Use Basic Deposit Buttons"
+msgstr "Eenvoudige aanbetalingsknoppen gebruiken"
+
+msgid "Use basic radio buttons for deposits, Check this if you are facing issues with deposits slider buttons in product page, "
+msgstr "Gebruik eenvoudige keuzerondjes voor aanbetalingen. Schakel dit in als u problemen ondervindt met schuifknoppen voor aanbetalingen op de productpagina, "
+
+msgid "Deposit Button Text"
+msgstr "Knoptekst aanbetaling"
+
+msgid "Text displayed in the 'Pay Deposit' button."
+msgstr "Tekst die wordt weergegeven op de knop 'Betaal aanbetaling'."
+
+msgid "Full Amount Button Text"
+msgstr "Knoptekst volledig bedrag"
+
+msgid "Text displayed in the 'Full Amount' button."
+msgstr "Tekst die wordt weergegeven op de knop 'Volledig bedrag'."
+
+msgid "Messages"
+msgstr "Berichten"
+
+msgid "Please check the documentation for allowed HTML tags."
+msgstr "Raadpleeg de documentatie voor toegestane HTML-tags."
+
+msgid "Deposit Message"
+msgstr "Aanbetalingsbericht"
+
+msgid "Message to show when 'Pay Deposit' is selected on the product's page."
+msgstr "Bericht dat wordt getoond wanneer 'Betaal aanbetaling' is geselecteerd op de productpagina."
+
+msgid "Full Amount Message"
+msgstr "Bericht volledig bedrag"
+
+msgid "Message to show when 'Full Amount' is selected on the product's page."
+msgstr "Bericht dat wordt getoond als 'Volledig bedrag' is geselecteerd op de productpagina."
+
+msgid "Enhanced Gateway Compatiblity"
+msgstr "Verbeterde gatewaycompatibiliteit"
+
+msgid "Settings that can enhance compatibility for specific gateways that are incompatible"
+msgstr "Instellingen die de compatibiliteit kunnen verbeteren van bepaalde gateways die niet compatibel zijn."
+
+msgid "Enable product calculation filter (experimental)"
+msgstr "Schakel productcalculatiefilter in (experimenteel)"
+
+msgid "enable product-based calculation filter function for better compatibility with gateways which calculate total amount by accessing order products directly"
+msgstr "schakel productgebaseerde calculatiefilterfunctie in voor betere compatibiliteit met gateways die het totaalbedrag berekenen via rechtstreekse toegang tot bestelde producten"
+
+msgid "Disallowed Gateways"
+msgstr "Niet-toegestane gateways"
+
+msgid "Disallow the following gateways when there is a deposit in the cart."
+msgstr "Sta de volgende gateways niet toe als er een aanbetaling in het wagentje zit."
+
+msgid "Disallowed For Deposits"
+msgstr "Niet toegestaan voor aanbetalingen"
+
+msgid "per person"
+msgstr "per persoon"
+
+msgid "per booking"
+msgstr "per boeking"
+
+msgid "per item"
+msgstr "per item"
+
+msgid "of total value"
+msgstr "van totale waarde"
+
+msgid "Deposit Option:"
+msgstr "Aanbetalingsoptie:"
+
+msgid "Remaining"
+msgstr "Resterend"
+
+msgid "To Pay"
+msgstr "Te betalen"
+
+msgid "(collected with deposit)"
+msgstr "(geïnd bij aanbetaling)"
+
+msgid " ( collected With second payment )"
+msgstr " (geïnd bij tweede betaling)"
+
+msgid "Remaining Amount"
+msgstr "Resterend bedrag"
+
+msgid "gateway attempted to change order from partially-paid  to on-hold \\n"
+msgstr "gateway heeft geprobeerd om bestelling te wijzigen van gedeeltelijk betaald naar in de wacht "
+
+msgid "Second payment marked as paid manually by admin"
+msgstr "Tweede betaling handmatig gemarkeerd als betaald door administratie"
+
+msgid "Order cancelled by customer."
+msgstr "Bestelling geannuleerd door klant"
+
+msgid "Your order was cancelled."
+msgstr "Uw bestelling is geannuleerd."
+
+msgid "Your order can no longer be cancelled. Please contact us if you need assistance."
+msgstr "Uw bestelling kan niet meer geannuleerd worden. Neem contact met ons op als u hulp nodig hebt."
+
+msgid "Invalid order."
+msgstr "Ongeldige bestelling."
+
+msgid "Partially Paid"
+msgstr "Gedeeltelijk betaald"
+
+msgid "Deposit Pending Payment"
+msgstr "Aanbetaling in afwachting van betaling"
+
+msgid "Deposit Paid"
+msgstr "Aanbetaling betaald"
+
+msgid "Order Fully Paid"
+msgstr "Bestelling volledig betaald"
+
+msgid "Order Total:"
+msgstr "Bestellingstotaal:"
+
+msgid "Deposit Amount:"
+msgstr "Aanbetalingsbedrag:"
+
+msgid "Second Payment Amount:"
+msgstr "Bedrag tweede betaling:"
+
+msgid "Payment status:"
+msgstr "Betalingsstatus:"
+
+msgid "To Pay:"
+msgstr "Te betalen:"
+
+msgid "Deposit Previously Paid:"
+msgstr "Eerder betaalde aanbetaling:"
+
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+msgid "%s (%s Already Paid)"
+msgstr "%s (%s al betaald)"
+
+msgid "Partial Payment Received"
+msgstr "Gedeeltelijke betaling ontvangen"
+
+msgid "This is an order notification sent to the customer after partial-payment, containing order details and a link to pay the remaining balance."
+msgstr "Dit is een bestellingsbericht dat na gedeeltelijke betaling naar de klant wordt gestuurd. Het bevat informatie over de bestelling en een link om het resterende saldo te betalen."
+
+msgid "Thank you for your order"
+msgstr "Bedankt voor uw bestelling."
+
+msgid "Your {site_title} order receipt from {order_date}"
+msgstr "Het ontvangstbewijs van uw bestelling via {site_title} op {order_date}"
+
+msgid "Full payment emails are sent when an order is fully paid."
+msgstr "E-mails voor volledige betaling worden verstuurd als een bestelling volledig is betaald."
+
+msgid "Order fully paid"
+msgstr "Bestelling volledig betaald"
+
+msgid "[{site_title}] Order fully paid ({order_number}) - {order_date}"
+msgstr "[{site_title}] Bestelling volledig betaald ({order_number}) - {order_date}"
+
+msgid "Enable/Disable"
+msgstr "Inschakelen/uitschakelen"
+
+msgid "Enable this email notification"
+msgstr "Schakel deze e-mailnotificatie in"
+
+msgid "Recipient(s)"
+msgstr "Ontvanger(s)"
+
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr "Voer ontvangers (gescheiden door komma's) in voor deze e-mail. Standaard voor <code>%s</code>."
+
+msgid "Subject"
+msgstr "Onderwerp"
+
+#, php-format
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "Hiermee kan de onderwerpregel voor de e-mail worden ingevoerd. Laat dit leeg om het standaardonderwerp te gebruiken: <code>%s</code>."
+
+msgid "Email Heading"
+msgstr "E-mailkop"
+
+#, php-format
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr "Hiermee kan de hoofdkop binnen de e-mailnotificatie worden ingevoerd. Laat dit leeg om de standaardkop te gebruiken: <code>%s</code>."
+
+msgid "Email type"
+msgstr "Type e-mail"
+
+msgid "Choose which format of email to send."
+msgstr "Kies het formaat van de e-mail."
+
+msgid "Plain text"
+msgstr "Gewone tekst"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Multipart"
+msgstr "Meerdelig"
+
+msgid "Partial Payment"
+msgstr "Gedeeltelijke betaling"
+
+msgid "Partial payment emails are sent when an order is partially paid."
+msgstr "E-mails voor gedeeltelijke betaling worden verstuurd als een bestelling gedeeltelijk is betaald."
+
+msgid "Order partially paid"
+msgstr "Bestelling gedeeltelijk betaald"
+
+msgid "[{site_title}] Order partially paid ({order_number}) - {order_date}"
+msgstr "[{site_title}] Bestelling gedeeltelijk betaald ({order_number}) - {order_date}"
+
+#, php-format
+msgid "An order from %s has been paid in full. Their order is as follows:"
+msgstr "Een bestelling van %s is volledig betaald. De gegevens van deze bestelling zijn als volgt:"
+
+#, php-format
+msgid "Order #%s"
+msgstr "Bestellingsnummer %s"
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Quantity"
+msgstr "Aantal"
+
+msgid "Price"
+msgstr "Prijs"
+
+#, php-format
+msgid "You have received a partially-paid order from %s. Their order is as follows:"
+msgstr "U hebt een gedeeltelijk betaalde bestelling ontvangen van %s. De gegevens van deze bestelling zijn als volgt:"
+
+msgid "Your order has been received and is now being processed. Your order details are shown below for your reference:"
+msgstr "Uw bestelling is ontvangen en wordt nu verwerkt. De gegevens van uw bestelling worden ter informatie hieronder weergegeven:"
+
+#, php-format
+msgid "To pay the remaining balance, please visit this link: %s"
+msgstr "Klik op deze link om het resterende saldo te betalen: %s"
+
+msgid "pay"
+msgstr "betalen"
+
+#, php-format
+msgid "Order number: %s"
+msgstr "Bestelingsnummer: %s"
+
+#, php-format
+msgid "Order link: %s"
+msgstr "Bestellingslink: %s"
+
+#, php-format
+msgid "Order date: %s"
+msgstr "Bestellingsdatum: %s"
+
+msgid "jS F Y"
+msgstr "jS F Y"

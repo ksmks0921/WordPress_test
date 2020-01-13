@@ -1,0 +1,553 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2017-05-19 22:40+0000\n"
+"PO-Revision-Date: 2017-05-20 00:50+0200\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.1\n"
+
+msgid "Note: Deposit amount is affected by settings for fees, taxes & shipping handling"
+msgstr "Remarque : le montant de l'acompte dépend des paramètres liés aux frais, aux taxes et à la gestion de la livraison"
+
+msgid "Fees Collection Method"
+msgstr "Méthode de perception des taxes"
+
+msgid "Choose how to handle fees."
+msgstr "Choisissez comment gérer les taxes."
+
+msgid "Collect Fees with deposit"
+msgstr "Percevoir les taxes avec un acompte"
+
+msgid "Collect Fees with second payment"
+msgstr "Percevoir les taxes avec un deuxième paiement"
+
+msgid "Enable Second Payment Reminder"
+msgstr "Activer le rappel du deuxième paiement"
+
+msgid "Uncheck this to prevent sending second payment reminder email. (You can always send a reminder manually from order actions )"
+msgstr "Décochez cette case pour désactiver l'e-mail de rappel du deuxième paiement. (Un rappel pourra toujours être envoyé manuellement depuis les actions de la commande)"
+
+msgid "Days before Second Payment reminder "
+msgstr "Jours avant le rappel du deuxième paiement"
+
+msgid "Duration between partial payment and second payment reminder (in days)"
+msgstr "Durée entre le rappel de paiement partiel et de deuxième paiement (en jours)"
+
+msgid "Deposit on Checkout Mode"
+msgstr "Acompte dans le mode paiement"
+
+msgid "Enable checkout mode"
+msgstr "Activer le mode paiement"
+
+msgid "changes the way deposits work to be based on total amount at checkout button"
+msgstr "modifie la manière dont les acomptes sont fonction du montant total sur le bouton de paiement"
+
+msgid "Deposit amount "
+msgstr "Montant de l'acompte"
+
+msgid "Check this to enable checkout mode, which makes deposits calculate based on total amount during checkout instead of per product"
+msgstr "Cochez cette case pour activer le mode paiement, qui calcule l'acompte en fonction du montant total pendant le paiement plutôt que par produit"
+
+msgid "Amount of deposit ( should not be more than 99 for percentage or more than order total for fixed"
+msgstr "Montant de l'acompte (doit être supérieur à 99 pour le pourcentage ou plus que le total de la commande pour"
+
+msgid "Amount Type"
+msgstr "Type d'acompte"
+
+msgid "Choose amount type"
+msgstr "Choisir un type de montant"
+
+msgid "â€” No Change â€”"
+msgstr "â€” Aucun changement â€”"
+
+msgid "This is a reminder of  partially-paid order  sent to the customer after specific period of time assigned in settings, containing order details and a link to pay the remaining balance."
+msgstr "Ceci est une notification de commande partiellement payée  envoyée au client après une période spécifique assignée dans les paramètres et contenant les détails de la commande ainsi qu'un lien de paiement du solde restant."
+
+msgid "Second Payment Reminder"
+msgstr "Rappel de deuxième paiement"
+
+msgid "Your {site_title} order second payment reminder {order_date}"
+msgstr "Votre rappel de deuxième paiement de la commande {site_title} du {order_date}"
+
+msgid "Kindly be reminded that your order's second payment is still pending payment"
+msgstr "Ceci est un rappel que votre commande est toujours en attente du deuxième paiement."
+
+msgid "Deposit"
+msgstr "Acompte"
+
+msgid "Second Payment"
+msgstr "Deuxième paiement"
+
+msgid "Enable deposit"
+msgstr "Activez l'acompte"
+
+msgid "Enable this to require a deposit for this item."
+msgstr "Activez ce paramètre pour exiger un acompte pour cet article."
+
+msgid "Force deposit"
+msgstr "Forcer l'acompte"
+
+msgid "If you enable this, the customer will not be allowed to make a full payment."
+msgstr "En activant ce paramètre, le client ne sera pas autorisé à effectuer un paiement intégral."
+
+msgid "Specify the type of deposit:"
+msgstr "Spécifier le type d'acompte :"
+
+msgid "Fixed value"
+msgstr "Valeur fixe"
+
+msgid "Percentage of price"
+msgstr "Pourcentage du prix"
+
+msgid "Deposit amount"
+msgstr "Montant de l'acompte"
+
+msgid "This is the minimum deposited amount.<br/>Note: Tax will be added to the deposit amount you specify here."
+msgstr "Il s'agit du montant minimum de l'acompte à verser.<br/>Remarque : une taxe sera ajoutée au montant de l'acompte spécifié ici. "
+
+msgid "Multiply by persons"
+msgstr "Multiplié par le nombre de personnes"
+
+msgid "Enable this to multiply the deposit by person count. (Only works when Fixed Value is active)"
+msgstr "Activez ce paramètre pour multiplier l'acompte par nombre de personnes. (ne fonctionne que lorsque la valeur fixe est active)"
+
+msgid "Deposit Options"
+msgstr "Options de l'acompte"
+
+msgid "— No Change —"
+msgstr "— Aucun Changement —"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Fixed"
+msgstr "Fixe"
+
+msgid "Percentage"
+msgstr "Pourcentage"
+
+msgid "Deposit Amount"
+msgstr "Montant de l'acompte"
+
+msgid "Change to:"
+msgstr "Changer en :"
+
+msgid "Increase by (fixed amount or %):"
+msgstr "Augmenter de (montant fixe ou %) :"
+
+msgid "Decrease by (fixed amount or %):"
+msgstr "Diminuer de (montant fixe ou %) :"
+
+#, php-format
+msgid "Enter Deposit Amount (%s)"
+msgstr "Saisissez le montant de l'acompte (%s)"
+
+msgid "Deposits"
+msgstr "Acomptes"
+
+msgid "Year"
+msgstr "Année"
+
+msgid "Last Month"
+msgstr "Le mois dernier"
+
+msgid "This Month"
+msgstr "Ce mois-ci"
+
+msgid "Last 7 Days"
+msgstr "7 derniers jours"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Export CSV"
+msgstr "Exporter en CSV"
+
+#, php-format
+msgid "%s deposits in total"
+msgstr "%s acomptes au total"
+
+#, php-format
+msgid "%s remaining in total"
+msgstr "%s restants au total"
+
+#, php-format
+msgid "%s partially-paid in total"
+msgstr "%s partiellement payés au total"
+
+msgid "Number of deposits"
+msgstr "Nombre d'acomptes"
+
+msgid "Paid deposits"
+msgstr "Acomptes payés"
+
+msgid "Order Remaining in Total"
+msgstr "Commandes restantes au total"
+
+msgid "Upadated successfully"
+msgstr "La mise à jour a été effectuée"
+
+msgid "Update Outdated Orders"
+msgstr "Mettre à jour les anciennes commandes"
+
+msgid "if there are orders created using a previous version of Woocommerce Deposits(1.0 ~ 1.6), an update for these orders is required to display correctly"
+msgstr "En cas de commandes créées à l'aide d'une précédente version de Woocommerce Deposits (1.6 ~ 1.6), une mise à jour de ces commandes est requise pour qu'elles s'affichent correctement."
+
+msgid "Deposit Buttons Primary Colour"
+msgstr "Couleur principale des boutons d'acompte"
+
+msgid "Deposit Buttons Secondary Colour"
+msgstr "Couleur secondaire des boutons d'acompte"
+
+msgid "Deposit Buttons Highlight Colour"
+msgstr "Couleur de surlignage des boutons d'acompte"
+
+msgid "Site-wide Settings"
+msgstr "Paramètres de tout le site"
+
+msgid "Disable Deposits"
+msgstr "Désactiver les acomptes"
+
+msgid "Check this to disable all deposit functionality with one click."
+msgstr "Cochez ceci pour désactiver toutes les fonctionnalités des acomptes en un clic."
+
+msgid "Default Selection"
+msgstr "Sélection par défaut"
+
+msgid "Select the default deposit option."
+msgstr "Sélectionnez l'option d'acompte par défaut."
+
+msgid "Pay Deposit"
+msgstr "Payer un acompte"
+
+msgid "Full Amount"
+msgstr "Montant total"
+
+msgid "Display Taxes"
+msgstr "Afficher les taxes"
+
+msgid "Check this to count taxes as part of deposits for purposes of display to the customer."
+msgstr "Cochez ceci pour compter les taxes en tant que parties des acomptes par souci de clarté d'affichage pour le client."
+
+msgid "Check this to count taxes as part of deposits for purposes of display to the customer. (Taxes are always collected upfront)"
+msgstr "Cochez ceci pour compter les taxes en tant que parties des acomptes par souci de clarté d'affichage pour le client. (Les taxes sont toujours collectées à la source) "
+
+msgid "Taxes Collection Method"
+msgstr "Méhode de perception des taxes"
+
+msgid "Choose how to handle taxes."
+msgstr "Choisissez comment gérer les taxes."
+
+msgid "Collect Taxes with deposit"
+msgstr "Percevoir les taxes avec un acompte"
+
+msgid "Collect Taxes with second payment"
+msgstr "Percevoir les taxes avec un deuxième paiement"
+
+msgid "Shipping Handling Method"
+msgstr "Méthode de gestion des livraisons"
+
+msgid "Choose how to handle shipping."
+msgstr "Choisissez le mode de gestion de la livraison."
+
+msgid "Collect Shipping fees with deposit"
+msgstr "Percevoir les frais de livraison avec un acompte"
+
+msgid "Collect Shipping fees with second payment"
+msgstr "Percevoir les frais de livraison avec un deuxième paiement"
+
+msgid "Reduce Stocks On"
+msgstr "Réduire les stocks de"
+
+msgid "Choose when to reduce stocks."
+msgstr "Choisir quand réduire les stocks."
+
+msgid "Deposit Payment"
+msgstr "Paiement de l'acompte"
+
+msgid "Full Payment"
+msgstr "Paiement intégral"
+
+msgid "Enable Second Payment"
+msgstr "Activer le deuxième paiement"
+
+msgid "Uncheck this to prevent the customer from making the second payment. (You'll have to manually mark the order as completed)"
+msgstr "Décochez cette case pour empêcher le client d'effectuer le deuxième paiement. (La finalisation de la commande devra être confirmée manuellement)"
+
+msgid "Buttons"
+msgstr "Boutons"
+
+msgid "No HTML allowed. Text will be translated to the user if a translation is available.<br/>Please note that any overflow will be hidden, since button width is theme-dependent."
+msgstr "Le HTML n'est pas autorisé. Le texte sera traduit à l'utilisateur si une traduction est disponible.<br/>Veuillez noter que tout excès sera masqué, la largeur du bouton étant dépendante du thème."
+
+msgid "Use Basic Deposit Buttons"
+msgstr "Utiliser les boutons de versement de base"
+
+msgid "Use basic radio buttons for deposits, Check this if you are facing issues with deposits slider buttons in product page, "
+msgstr "Utiliser les boutons de versement radio de base. Cochez ceci si vous rencontrez des problèmes avec les bouton curseurs des versements sur la page produit. "
+
+msgid "Deposit Button Text"
+msgstr "Texte du bouton de l'acompte"
+
+msgid "Text displayed in the 'Pay Deposit' button."
+msgstr "Texte affiché sur le bouton « Payer un acompte  »."
+
+msgid "Full Amount Button Text"
+msgstr "Texte du bouton « Montant intégral  »"
+
+msgid "Text displayed in the 'Full Amount' button."
+msgstr "Texte affiché sur le bouton « Montant intégral  »"
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "Please check the documentation for allowed HTML tags."
+msgstr "Veuillez vérifier la documentation relative aux balises HTML autorisées."
+
+msgid "Deposit Message"
+msgstr "Message de l'acompte"
+
+msgid "Message to show when 'Pay Deposit' is selected on the product's page."
+msgstr "Message à afficher lorsque « Payer un acompte » est sélectionné sur la page du produit."
+
+msgid "Full Amount Message"
+msgstr "Message du montant intégral"
+
+msgid "Message to show when 'Full Amount' is selected on the product's page."
+msgstr "Message à afficher lorsque « Montant intégral » est sélectionné sur la page du produit."
+
+msgid "Enhanced Gateway Compatiblity"
+msgstr "Compatibilité de passerelle améliorée"
+
+msgid "Settings that can enhance compatibility for specific gateways that are incompatible"
+msgstr "Paramètres pouvant améliorer la compatibilité pour des passerelles spécifiques qui sont incompatibles."
+
+msgid "Enable product calculation filter (experimental)"
+msgstr "Activer le filtre de calcul de produit (expérimental)"
+
+msgid "enable product-based calculation filter function for better compatibility with gateways which calculate total amount by accessing order products directly"
+msgstr "Activer le filtre de calcul basé sur le produit pour une meilleure compatibilité avec les passerelles qui calculent le montant total en accédant directement aux produits de la commande."
+
+msgid "Disallowed Gateways"
+msgstr "Portails non autorisés"
+
+msgid "Disallow the following gateways when there is a deposit in the cart."
+msgstr "Ne pas autoriser les portails suivants lorsqu'un acompte est présent dans le panier."
+
+msgid "Disallowed For Deposits"
+msgstr "Non autorisé pour les acomptes"
+
+msgid "per person"
+msgstr "par personne"
+
+msgid "per booking"
+msgstr "par réservation"
+
+msgid "per item"
+msgstr "par article"
+
+msgid "of total value"
+msgstr "de la valeur totale"
+
+msgid "Deposit Option:"
+msgstr "Option de l'acompte :"
+
+msgid "Remaining"
+msgstr "Restant"
+
+msgid "To Pay"
+msgstr "À payer"
+
+msgid "(collected with deposit)"
+msgstr "(perçu avec un acompte)"
+
+msgid " ( collected With second payment )"
+msgstr "(perçu avec un deuxième paiement)"
+
+msgid "Remaining Amount"
+msgstr "Montant restant"
+
+msgid "gateway attempted to change order from partially-paid  to on-hold \\n"
+msgstr "tentative de changement de statut de commande de partiellement payée à en attente "
+
+msgid "Second payment marked as paid manually by admin"
+msgstr "Deuxième paiement marqué comme payé manuellement par l'administrateur"
+
+msgid "Order cancelled by customer."
+msgstr "Commande annulée par le client."
+
+msgid "Your order was cancelled."
+msgstr "Votre commande a été annulée."
+
+msgid "Your order can no longer be cancelled. Please contact us if you need assistance."
+msgstr "Votre commande ne peut plus être annulée. Veuillez nous contacter si vous avez besoin d'une assistance."
+
+msgid "Invalid order."
+msgstr "Commande non valide."
+
+msgid "Partially Paid"
+msgstr "Partiellement payé"
+
+msgid "Deposit Pending Payment"
+msgstr "Paiement de l'acompte en attente"
+
+msgid "Deposit Paid"
+msgstr "Acompte payé"
+
+msgid "Order Fully Paid"
+msgstr "Commande payée intégralement"
+
+msgid "Order Total:"
+msgstr "Total de la commande :"
+
+msgid "Deposit Amount:"
+msgstr "Montant de l'acompte :"
+
+msgid "Second Payment Amount:"
+msgstr "Montant du deuxième paiement :"
+
+msgid "Payment status:"
+msgstr "Statut du paiement :"
+
+msgid "To Pay:"
+msgstr "À payer :"
+
+msgid "Deposit Previously Paid:"
+msgstr "Acompte payé précédemment :"
+
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+msgid "%s (%s Already Paid)"
+msgstr "%s (%s déjà payé)"
+
+msgid "Partial Payment Received"
+msgstr "Paiement partiel reçu"
+
+msgid "This is an order notification sent to the customer after partial-payment, containing order details and a link to pay the remaining balance."
+msgstr "Ceci est une notification de commande envoyée au client après un paiement partiel, contenant les détails de la commande et un lien de paiement du solde restant."
+
+msgid "Thank you for your order"
+msgstr "Merci pour votre commande"
+
+msgid "Your {site_title} order receipt from {order_date}"
+msgstr "Votre reçu de commande {site_title} du {order_date}"
+
+msgid "Full payment emails are sent when an order is fully paid."
+msgstr "Les courriels relatifs au paiement intégral sont envoyés lorsqu'une commande est payée intégralement."
+
+msgid "Order fully paid"
+msgstr "Commande payée intégralement"
+
+msgid "[{site_title}] Order fully paid ({order_number}) - {order_date}"
+msgstr "[{site_title}] Commande payée intégralement ({order_number}) - {order_date}"
+
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+msgid "Enable this email notification"
+msgstr "Activer cette notification par courriel"
+
+msgid "Recipient(s)"
+msgstr "Destinataire(s)"
+
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr "Saisir les destinataires (séparés par une virgule) de ce courriel. Par défaut <code>%s</code>."
+
+msgid "Subject"
+msgstr "Objet"
+
+#, php-format
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "Ce paramètre permet de contrôler le champ de l'objet du courriel. Laissez le champ en blanc pour utiliser l'objet par défaut : <code>%s</code>."
+
+msgid "Email Heading"
+msgstr "En-tête du courriel"
+
+#, php-format
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr "Ce paramètre permet de contrôler l'en-tête principal contenu dans la notification du courriel. Laissez le champ en blanc pour utiliser l'en-tête par défaut : <code>%s</code>."
+
+msgid "Email type"
+msgstr "Type de courriel"
+
+msgid "Choose which format of email to send."
+msgstr "Choisissez le format du courriel à envoyer"
+
+msgid "Plain text"
+msgstr "Texte brut"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Multipart"
+msgstr "Multiple"
+
+msgid "Partial Payment"
+msgstr "Paiement partiel"
+
+msgid "Partial payment emails are sent when an order is partially paid."
+msgstr "Les courriels relatifs au paiement partiel sont envoyés lorsqu'une commande est payée partiellement."
+
+msgid "Order partially paid"
+msgstr "Commande partiellement payée"
+
+msgid "[{site_title}] Order partially paid ({order_number}) - {order_date}"
+msgstr "[{site_title}] Commande payée partiellement ({order_number}) - {order_date}"
+
+#, php-format
+msgid "An order from %s has been paid in full. Their order is as follows:"
+msgstr "Une commande chez %s a été payée en intégralité. Cette commande est la suivante :"
+
+#, php-format
+msgid "Order #%s"
+msgstr "Commande n° %s"
+
+msgid "Product"
+msgstr "Produit"
+
+msgid "Quantity"
+msgstr "Quantité"
+
+msgid "Price"
+msgstr "Prix"
+
+#, php-format
+msgid "You have received a partially-paid order from %s. Their order is as follows:"
+msgstr "Vous avez reçu une commande partiellement payée de %s. La commande est la suivante :"
+
+msgid "Your order has been received and is now being processed. Your order details are shown below for your reference:"
+msgstr "Votre commande a été reçue et est en cours de traitement. Les détails de votre commande sont affichés ci-dessous pour votre référence :"
+
+#, php-format
+msgid "To pay the remaining balance, please visit this link: %s"
+msgstr "Pour payer le solde restant, veuillez suivre ce lien : %s"
+
+msgid "pay"
+msgstr "payer"
+
+#, php-format
+msgid "Order number: %s"
+msgstr "Numéro de commande : %s"
+
+#, php-format
+msgid "Order link: %s"
+msgstr "Lien de la commande : %s"
+
+#, php-format
+msgid "Order date: %s"
+msgstr "Date de la commande : %s"
+
+msgid "jS F Y"
+msgstr "jS F Y"

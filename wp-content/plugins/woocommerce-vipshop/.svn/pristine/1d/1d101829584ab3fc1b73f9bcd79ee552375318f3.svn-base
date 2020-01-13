@@ -1,0 +1,88 @@
+<?php
+class class_wc_admin_rules_single_product {
+	/**
+	 * Constructor
+	 */	
+	public function __construct() {
+		add_action('woocommerce_product_write_panel_tabs', array( $this,'custom_tab_options_tab'));  
+		add_action('woocommerce_product_write_panels', array( $this,'product_tab_options') );		
+		add_action( 'woocommerce_process_product_meta',array( $this,'wcpt_product_save_tabdata'));
+		//add_action('woocommerce_process_product_meta', array( $this,'process_product_meta_custom_tab'), 10, 2);		
+	}
+	public function custom_tab_options_tab() {	
+		?>
+			<li class="cdog_product_options_tab"><a href="#cdog_product_options"><?php _e('VIP Options', 'woocommerce'); ?></a></li>
+		<?php
+	}
+	public function wcpt_product_save_tabdata($post_id) {
+		//if ( isset( $_POST['view_product'] ) ) {
+			update_post_meta( $post_id, 'view_product', $_POST['view_product']  );
+			update_post_meta( $post_id, 'view_price', $_POST['view_price'] );
+			update_post_meta( $post_id, 'view_purchase', $_POST['view_purchase'] );
+		//}
+	}		
+
+	public function product_tab_options($product_type) {
+		global $post
+		?>
+		<div id="cdog_product_options" class="wcpt_product_tabs_panel panel wc-metaboxes-wrapper">
+			<div class="wt-admingeneral wt-advanced">
+				<div class="wt-faqcnt ">
+				  <div class="wt-faqtitle expanded"><h4><?php _e('Advanced Setting','');?></h4></div>
+				  <div class="wt-faqcontent wt-adminadvanced">		
+		<?php
+		$view_product=get_post_meta($post->ID, 'view_product', true);
+		woocommerce_wp_select( 
+			array( 
+				'id'      => 'view_product',
+				'label'   => __( 'Who can view this product', '' ), 
+				'description'       => __( 'Choose Number of Column(s)', '' ),
+				'value'	=>$view_product,
+				'desc_tip'   		  => 'true',
+				'options' => array(
+					'everyone'	  => __( 'Everyone', '' ),
+					'vipshop'	  => __( 'VipShop User', '' ),
+					)
+				)
+        );
+		$view_price=get_post_meta($post->ID, 'view_price', true);		
+		woocommerce_wp_select( 
+			array( 
+				'id'      => 'view_price',
+				'label'   => __( 'Who can view prices', '' ), 
+				'description'       => __( 'Choose Number of Column(s)', '' ),
+				'value'	=>$view_price,
+				'desc_tip'   		  => 'true',
+				'options' => array(
+					'everyone'	  => __( 'Everyone', '' ),
+					'vipshop'	  => __( 'VipShop User', '' ),
+					)
+				)
+        );
+		$view_purchase=get_post_meta($post->ID, 'view_purchase', true);
+		woocommerce_wp_select( 
+			array( 
+				'id'      => 'view_purchase',
+				'label'   => __( 'Who can purchase this product', '' ), 
+				'description'       => __( 'Choose Number of Column(s)', '' ),
+				'value'	=>$view_purchase,
+				'desc_tip'   		  => 'true',
+				'options' => array(
+					'everyone'	  => __( 'Everyone', '' ),
+					'vipshop'	  => __( 'VipShop User', '' ),
+					)
+				)
+        );
+		?>
+				</div>
+			  </div>
+			</div>
+		</div>		
+		<?php
+	}
+}
+new class_wc_admin_rules_single_product();
+
+
+
+?>

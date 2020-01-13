@@ -1,0 +1,553 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2017-05-19 22:40+0000\n"
+"PO-Revision-Date: 2017-05-20 00:52+0200\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.0.1\n"
+
+msgid "Note: Deposit amount is affected by settings for fees, taxes & shipping handling"
+msgstr "Note: Deposit amount is affected by settings for fees, taxes & shipping handling"
+
+msgid "Fees Collection Method"
+msgstr "Fees Collection Method"
+
+msgid "Choose how to handle fees."
+msgstr "Choose how to handle fees."
+
+msgid "Collect Fees with deposit"
+msgstr "Collect Fees with deposit"
+
+msgid "Collect Fees with second payment"
+msgstr "Collect Fees with second payment"
+
+msgid "Enable Second Payment Reminder"
+msgstr "Enable Second Payment Reminder"
+
+msgid "Uncheck this to prevent sending second payment reminder email. (You can always send a reminder manually from order actions )"
+msgstr "Uncheck this to prevent sending second payment reminder email. (You can always send a reminder manually from order actions )"
+
+msgid "Days before Second Payment reminder "
+msgstr "Days before Second Payment reminder "
+
+msgid "Duration between partial payment and second payment reminder (in days)"
+msgstr "Duration between partial payment and second payment reminder (in days)"
+
+msgid "Deposit on Checkout Mode"
+msgstr "Deposit on Checkout Mode"
+
+msgid "Enable checkout mode"
+msgstr "Enable checkout mode"
+
+msgid "changes the way deposits work to be based on total amount at checkout button"
+msgstr "changes the way deposits work to be based on total amount at checkout button"
+
+msgid "Deposit amount "
+msgstr "Deposit amount "
+
+msgid "Check this to enable checkout mode, which makes deposits calculate based on total amount during checkout instead of per product"
+msgstr "Check this to enable checkout mode, which makes deposits calculate based on total amount during checkout instead of per product"
+
+msgid "Amount of deposit ( should not be more than 99 for percentage or more than order total for fixed"
+msgstr "Amount of deposit ( should not be more than 99 for percentage or more than order total for fixed"
+
+msgid "Amount Type"
+msgstr "Amount Type"
+
+msgid "Choose amount type"
+msgstr "Choose amount type"
+
+msgid "â€” No Change â€”"
+msgstr "â€” No Change â€”"
+
+msgid "This is a reminder of  partially-paid order  sent to the customer after specific period of time assigned in settings, containing order details and a link to pay the remaining balance."
+msgstr "This is a reminder of  partially-paid order  sent to the customer after specific period of time assigned in settings, containing order details and a link to pay the remaining balance."
+
+msgid "Second Payment Reminder"
+msgstr "Second Payment Reminder"
+
+msgid "Your {site_title} order second payment reminder {order_date}"
+msgstr "Your {site_title} order second payment reminder {order_date}"
+
+msgid "Kindly be reminded that your order's second payment is still pending payment"
+msgstr "Kindly be reminded that your order's second payment is still pending payment"
+
+msgid "Deposit"
+msgstr "Deposit"
+
+msgid "Second Payment"
+msgstr "Second Payment"
+
+msgid "Enable deposit"
+msgstr "Enable deposit"
+
+msgid "Enable this to require a deposit for this item."
+msgstr "Enable this to require a deposit for this item."
+
+msgid "Force deposit"
+msgstr "Force deposit"
+
+msgid "If you enable this, the customer will not be allowed to make a full payment."
+msgstr "If you enable this, the customer will not be allowed to make a full payment."
+
+msgid "Specify the type of deposit:"
+msgstr "Specify the type of deposit:"
+
+msgid "Fixed value"
+msgstr "Fixed value"
+
+msgid "Percentage of price"
+msgstr "Percentage of price"
+
+msgid "Deposit amount"
+msgstr "Deposit amount"
+
+msgid "This is the minimum deposited amount.<br/>Note: Tax will be added to the deposit amount you specify here."
+msgstr "This is the minimum deposited amount.<br/>Note: Tax will be added to the deposit amount you specify here."
+
+msgid "Multiply by persons"
+msgstr "Multiply by persons"
+
+msgid "Enable this to multiply the deposit by person count. (Only works when Fixed Value is active)"
+msgstr "Enable this to multiply the deposit by person count. (Only works when Fixed Value is active)"
+
+msgid "Deposit Options"
+msgstr "Deposit Options"
+
+msgid "— No Change —"
+msgstr "— No Change —"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Fixed"
+msgstr "Fixed"
+
+msgid "Percentage"
+msgstr "Percentage"
+
+msgid "Deposit Amount"
+msgstr "Deposit Amount"
+
+msgid "Change to:"
+msgstr "Change to:"
+
+msgid "Increase by (fixed amount or %):"
+msgstr "Increase by (fixed amount or %):"
+
+msgid "Decrease by (fixed amount or %):"
+msgstr "Decrease by (fixed amount or %):"
+
+#, php-format
+msgid "Enter Deposit Amount (%s)"
+msgstr "Enter Deposit Amount (%s)"
+
+msgid "Deposits"
+msgstr "Deposits"
+
+msgid "Year"
+msgstr "Year"
+
+msgid "Last Month"
+msgstr "Last Month"
+
+msgid "This Month"
+msgstr "This Month"
+
+msgid "Last 7 Days"
+msgstr "Last 7 Days"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Export CSV"
+msgstr "Export CSV"
+
+#, php-format
+msgid "%s deposits in total"
+msgstr "%s deposits in total"
+
+#, php-format
+msgid "%s remaining in total"
+msgstr "%s remaining in total"
+
+#, php-format
+msgid "%s partially-paid in total"
+msgstr "%s partially-paid in total"
+
+msgid "Number of deposits"
+msgstr "Number of deposits"
+
+msgid "Paid deposits"
+msgstr "Paid deposits"
+
+msgid "Order Remaining in Total"
+msgstr "Order Remaining in Total"
+
+msgid "Upadated successfully"
+msgstr "Upadated successfully"
+
+msgid "Update Outdated Orders"
+msgstr "Update Outdated Orders"
+
+msgid "if there are orders created using a previous version of Woocommerce Deposits(1.0 ~ 1.6), an update for these orders is required to display correctly"
+msgstr "if there are orders created using a previous version of Woocommerce Deposits(1.0 ~ 1.6), an update for these orders is required to display correctly"
+
+msgid "Deposit Buttons Primary Colour"
+msgstr "Deposit Buttons Primary Colour"
+
+msgid "Deposit Buttons Secondary Colour"
+msgstr "Deposit Buttons Secondary Colour"
+
+msgid "Deposit Buttons Highlight Colour"
+msgstr "Deposit Buttons Highlight Colour"
+
+msgid "Site-wide Settings"
+msgstr "Site-wide Settings"
+
+msgid "Disable Deposits"
+msgstr "Disable Deposits"
+
+msgid "Check this to disable all deposit functionality with one click."
+msgstr "Check this to disable all deposit functionality with one click."
+
+msgid "Default Selection"
+msgstr "Default Selection"
+
+msgid "Select the default deposit option."
+msgstr "Select the default deposit option."
+
+msgid "Pay Deposit"
+msgstr "Pay Deposit"
+
+msgid "Full Amount"
+msgstr "Full Amount"
+
+msgid "Display Taxes"
+msgstr "Display Taxes"
+
+msgid "Check this to count taxes as part of deposits for purposes of display to the customer."
+msgstr "Check this to count taxes as part of deposits for purposes of display to the customer."
+
+msgid "Check this to count taxes as part of deposits for purposes of display to the customer. (Taxes are always collected upfront)"
+msgstr "Check this to count taxes as part of deposits for purposes of display to the customer. (Taxes are always collected upfront)"
+
+msgid "Taxes Collection Method"
+msgstr "Taxes Collection Method"
+
+msgid "Choose how to handle taxes."
+msgstr "Choose how to handle taxes."
+
+msgid "Collect Taxes with deposit"
+msgstr "Collect Taxes with deposit"
+
+msgid "Collect Taxes with second payment"
+msgstr "Collect Taxes with second payment"
+
+msgid "Shipping Handling Method"
+msgstr "Shipping Handling Method"
+
+msgid "Choose how to handle shipping."
+msgstr "Choose how to handle shipping."
+
+msgid "Collect Shipping fees with deposit"
+msgstr "Collect Shipping fees with deposit"
+
+msgid "Collect Shipping fees with second payment"
+msgstr "Collect Shipping fees with second payment"
+
+msgid "Reduce Stocks On"
+msgstr "Reduce Stocks On"
+
+msgid "Choose when to reduce stocks."
+msgstr "Choose when to reduce stocks."
+
+msgid "Deposit Payment"
+msgstr "Deposit Payment"
+
+msgid "Full Payment"
+msgstr "Full Payment"
+
+msgid "Enable Second Payment"
+msgstr "Enable Second Payment"
+
+msgid "Uncheck this to prevent the customer from making the second payment. (You'll have to manually mark the order as completed)"
+msgstr "Uncheck this to prevent the customer from making the second payment. (You'll have to manually mark the order as completed)"
+
+msgid "Buttons"
+msgstr "Buttons"
+
+msgid "No HTML allowed. Text will be translated to the user if a translation is available.<br/>Please note that any overflow will be hidden, since button width is theme-dependent."
+msgstr "No HTML allowed. Text will be translated to the user if a translation is available.<br/>Please note that any overflow will be hidden, since button width is theme-dependent."
+
+msgid "Use Basic Deposit Buttons"
+msgstr "Use Basic Deposit Buttons"
+
+msgid "Use basic radio buttons for deposits, Check this if you are facing issues with deposits slider buttons in product page, "
+msgstr "Use basic radio buttons for deposits, Check this if you are facing issues with deposits slider buttons in product page, "
+
+msgid "Deposit Button Text"
+msgstr "Deposit Button Text"
+
+msgid "Text displayed in the 'Pay Deposit' button."
+msgstr "Text displayed in the 'Pay Deposit' button."
+
+msgid "Full Amount Button Text"
+msgstr "Full Amount Button Text"
+
+msgid "Text displayed in the 'Full Amount' button."
+msgstr "Text displayed in the 'Full Amount' button."
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "Please check the documentation for allowed HTML tags."
+msgstr "Please check the documentation for allowed HTML tags."
+
+msgid "Deposit Message"
+msgstr "Deposit Message"
+
+msgid "Message to show when 'Pay Deposit' is selected on the product's page."
+msgstr "Message to show when 'Pay Deposit' is selected on the product's page."
+
+msgid "Full Amount Message"
+msgstr "Full Amount Message"
+
+msgid "Message to show when 'Full Amount' is selected on the product's page."
+msgstr "Message to show when 'Full Amount' is selected on the product's page."
+
+msgid "Enhanced Gateway Compatiblity"
+msgstr "Enhanced Gateway Compatiblity"
+
+msgid "Settings that can enhance compatibility for specific gateways that are incompatible"
+msgstr "Settings that can enhance compatibility for specific gateways that are incompatible"
+
+msgid "Enable product calculation filter (experimental)"
+msgstr "Enable product calculation filter (experimental)"
+
+msgid "enable product-based calculation filter function for better compatibility with gateways which calculate total amount by accessing order products directly"
+msgstr "enable product-based calculation filter function for better compatibility with gateways which calculate total amount by accessing order products directly"
+
+msgid "Disallowed Gateways"
+msgstr "Disallowed Gateways"
+
+msgid "Disallow the following gateways when there is a deposit in the cart."
+msgstr "Disallow the following gateways when there is a deposit in the cart."
+
+msgid "Disallowed For Deposits"
+msgstr "Disallowed For Deposits"
+
+msgid "per person"
+msgstr "per person"
+
+msgid "per booking"
+msgstr "per booking"
+
+msgid "per item"
+msgstr "per item"
+
+msgid "of total value"
+msgstr "of total value"
+
+msgid "Deposit Option:"
+msgstr "Deposit Option:"
+
+msgid "Remaining"
+msgstr "Remaining"
+
+msgid "To Pay"
+msgstr "To Pay"
+
+msgid "(collected with deposit)"
+msgstr "(collected with deposit)"
+
+msgid " ( collected With second payment )"
+msgstr " ( collected With second payment )"
+
+msgid "Remaining Amount"
+msgstr "Remaining Amount"
+
+msgid "gateway attempted to change order from partially-paid  to on-hold \\n"
+msgstr "gateway attempted to change order from partially-paid  to on-hold \\n"
+
+msgid "Second payment marked as paid manually by admin"
+msgstr "Second payment marked as paid manually by admin"
+
+msgid "Order cancelled by customer."
+msgstr "Order cancelled by customer."
+
+msgid "Your order was cancelled."
+msgstr "Your order was cancelled."
+
+msgid "Your order can no longer be cancelled. Please contact us if you need assistance."
+msgstr "Your order can no longer be cancelled. Please contact us if you need assistance."
+
+msgid "Invalid order."
+msgstr "Invalid order."
+
+msgid "Partially Paid"
+msgstr "Partially Paid"
+
+msgid "Deposit Pending Payment"
+msgstr "Deposit Pending Payment"
+
+msgid "Deposit Paid"
+msgstr "Deposit Paid"
+
+msgid "Order Fully Paid"
+msgstr "Order Fully Paid"
+
+msgid "Order Total:"
+msgstr "Order Total:"
+
+msgid "Deposit Amount:"
+msgstr "Deposit Amount:"
+
+msgid "Second Payment Amount:"
+msgstr "Second Payment Amount:"
+
+msgid "Payment status:"
+msgstr "Payment status:"
+
+msgid "To Pay:"
+msgstr "To Pay:"
+
+msgid "Deposit Previously Paid:"
+msgstr "Deposit Previously Paid:"
+
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+msgid "%s (%s Already Paid)"
+msgstr "%s (%s Already Paid)"
+
+msgid "Partial Payment Received"
+msgstr "Partial Payment Received"
+
+msgid "This is an order notification sent to the customer after partial-payment, containing order details and a link to pay the remaining balance."
+msgstr "This is an order notification sent to the customer after partial-payment, containing order details and a link to pay the remaining balance."
+
+msgid "Thank you for your order"
+msgstr "Thank you for your order"
+
+msgid "Your {site_title} order receipt from {order_date}"
+msgstr "Your {site_title} order receipt from {order_date}"
+
+msgid "Full payment emails are sent when an order is fully paid."
+msgstr "Full payment emails are sent when an order is fully paid."
+
+msgid "Order fully paid"
+msgstr "Order fully paid"
+
+msgid "[{site_title}] Order fully paid ({order_number}) - {order_date}"
+msgstr "[{site_title}] Order fully paid ({order_number}) - {order_date}"
+
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+msgid "Enable this email notification"
+msgstr "Enable this email notification"
+
+msgid "Recipient(s)"
+msgstr "Recipient(s)"
+
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+
+msgid "Subject"
+msgstr "Subject"
+
+#, php-format
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+
+msgid "Email Heading"
+msgstr "Email Heading"
+
+#, php-format
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+
+msgid "Email type"
+msgstr "Email type"
+
+msgid "Choose which format of email to send."
+msgstr "Choose which format of email to send."
+
+msgid "Plain text"
+msgstr "Plain text"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Multipart"
+msgstr "Multipart"
+
+msgid "Partial Payment"
+msgstr "Partial Payment"
+
+msgid "Partial payment emails are sent when an order is partially paid."
+msgstr "Partial payment emails are sent when an order is partially paid."
+
+msgid "Order partially paid"
+msgstr "Order partially paid"
+
+msgid "[{site_title}] Order partially paid ({order_number}) - {order_date}"
+msgstr "[{site_title}] Order partially paid ({order_number}) - {order_date}"
+
+#, php-format
+msgid "An order from %s has been paid in full. Their order is as follows:"
+msgstr "An order from %s has been paid in full. Their order is as follows:"
+
+#, php-format
+msgid "Order #%s"
+msgstr "Order #%s"
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Quantity"
+msgstr "Quantity"
+
+msgid "Price"
+msgstr "Price"
+
+#, php-format
+msgid "You have received a partially-paid order from %s. Their order is as follows:"
+msgstr "You have received a partially-paid order from %s. Their order is as follows:"
+
+msgid "Your order has been received and is now being processed. Your order details are shown below for your reference:"
+msgstr "Your order has been received and is now being processed. Your order details are shown below for your reference:"
+
+#, php-format
+msgid "To pay the remaining balance, please visit this link: %s"
+msgstr "To pay the remaining balance, please visit this link: %s"
+
+msgid "pay"
+msgstr "pay"
+
+#, php-format
+msgid "Order number: %s"
+msgstr "Order number: %s"
+
+#, php-format
+msgid "Order link: %s"
+msgstr "Order link: %s"
+
+#, php-format
+msgid "Order date: %s"
+msgstr "Order date: %s"
+
+msgid "jS F Y"
+msgstr "jS F Y"

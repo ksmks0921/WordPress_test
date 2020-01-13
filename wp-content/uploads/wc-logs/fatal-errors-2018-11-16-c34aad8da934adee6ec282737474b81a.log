@@ -1,0 +1,12 @@
+2018-11-16T09:50:54+00:00 CRITICAL syntax error, unexpected 'alias' (T_STRING), expecting ']' in /home/pd8wl65lpn93/public_html/preview/wp-content/themes/kid-toys-store/page-template/default-frontpage.php on line 20
+
+2018-11-16T09:51:03+00:00 CRITICAL syntax error, unexpected 'alias' (T_STRING), expecting ']' in /home/pd8wl65lpn93/public_html/preview/wp-content/themes/kid-toys-store/page-template/default-frontpage.php on line 20
+
+2018-11-16T09:51:20+00:00 CRITICAL syntax error, unexpected 'alias' (T_STRING), expecting ']' in /home/pd8wl65lpn93/public_html/preview/wp-content/themes/kid-toys-store/page-template/default-frontpage.php on line 20
+
+2018-11-16T09:51:49+00:00 CRITICAL syntax error, unexpected 'alias' (T_STRING), expecting ']' in /home/pd8wl65lpn93/public_html/preview/wp-content/themes/kid-toys-store/page-template/default-frontpage.php on line 20
+
+2018-11-16T09:53:20+00:00 CRITICAL syntax error, unexpected 'main_slider' (T_STRING), expecting ',' or ')' in /home/pd8wl65lpn93/public_html/preview/wp-content/themes/kid-toys-store/page-template/default-frontpage.php on line 20
+
+2018-11-16T09:53:22+00:00 CRITICAL syntax error, unexpected 'main_slider' (T_STRING), expecting ',' or ')' in /home/pd8wl65lpn93/public_html/preview/wp-content/themes/kid-toys-store/page-template/default-frontpage.php on line 20
+

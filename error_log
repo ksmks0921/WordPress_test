@@ -1,0 +1,42 @@
+[09-Nov-2018 00:50:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/pd8wl65lpn93/public_html/deleteme.wp2gkh.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pd8wl65lpn93/public_html/deleteme.wp2gkh.php on line 16
+[09-Nov-2018 00:50:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/pd8wl65lpn93/public_html/deleteme.wp6b1b.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pd8wl65lpn93/public_html/deleteme.wp6b1b.php on line 16
+[09-Nov-2018 00:50:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/pd8wl65lpn93/public_html/deleteme.wphosi.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pd8wl65lpn93/public_html/deleteme.wphosi.php on line 16
+[09-Nov-2018 00:50:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/pd8wl65lpn93/public_html/deleteme.wpx4c4.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pd8wl65lpn93/public_html/deleteme.wpx4c4.php on line 16
+[09-Nov-2018 12:56:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/pd8wl65lpn93/public_html/deleteme.wpfafr.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pd8wl65lpn93/public_html/deleteme.wpfafr.php on line 16
+[09-Nov-2018 12:56:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/pd8wl65lpn93/public_html/deleteme.wp1x2n.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pd8wl65lpn93/public_html/deleteme.wp1x2n.php on line 16
+[09-Nov-2018 12:56:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/pd8wl65lpn93/public_html/deleteme.wpzoyr.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pd8wl65lpn93/public_html/deleteme.wpzoyr.php on line 16
+[09-Nov-2018 12:56:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/pd8wl65lpn93/public_html/deleteme.wpyhpq.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pd8wl65lpn93/public_html/deleteme.wpyhpq.php on line 16
+[16-Nov-2018 16:07:36 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::get_fees).
+[16-Nov-2018 16:07:36 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::add_fee).
+[17-Nov-2018 02:41:54 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::get_fees).
+[17-Nov-2018 02:41:54 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::add_fee).
+[17-Nov-2018 02:49:53 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::get_fees).
+[17-Nov-2018 02:49:53 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::add_fee).
+[17-Nov-2018 02:56:16 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::get_fees).
+[17-Nov-2018 02:56:16 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::add_fee).
+[17-Nov-2018 02:59:10 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::get_fees).
+[17-Nov-2018 02:59:10 UTC] The WC_Cart->fees function is deprecated since version 3.2. Replace with the fees API (WC_Cart::add_fee).

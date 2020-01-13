@@ -1,0 +1,55 @@
+2018-10-26T06:44:09+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on boolean in C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-selling-checkout.php:60
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-functions.php(64): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(319): customer_preorder_sell_checkout('', '', 'preorder-sellin...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(preord...', 'do_shortcode_ta...', '[preorder-selli...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): do_shortcode('[preorder-selli...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(203): WP_Hook->apply_filters('[preorder-selli...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(240): apply_filters('the_content', '[preorder-selli...')
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\kid-toys-store\pa
+
+2018-10-26T06:44:12+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on boolean in C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-selling-checkout.php:60
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-functions.php(64): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(319): customer_preorder_sell_checkout('', '', 'preorder-sellin...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(preord...', 'do_shortcode_ta...', '[preorder-selli...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): do_shortcode('[preorder-selli...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(203): WP_Hook->apply_filters('[preorder-selli...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(240): apply_filters('the_content', '[preorder-selli...')
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\kid-toys-store\pa
+
+2018-10-26T06:45:38+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on boolean in C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-selling-checkout.php:60
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-functions.php(64): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(319): customer_preorder_sell_checkout('', '', 'preorder-sellin...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(preord...', 'do_shortcode_ta...', '[preorder-selli...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): do_shortcode('[preorder-selli...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(203): WP_Hook->apply_filters('[preorder-selli...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(240): apply_filters('the_content', '[preorder-selli...')
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\kid-toys-store\pa
+
+2018-10-26T06:45:46+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on boolean in C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-selling-checkout.php:60
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-functions.php(64): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(319): customer_preorder_sell_checkout('', '', 'preorder-sellin...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(preord...', 'do_shortcode_ta...', '[preorder-selli...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): do_shortcode('[preorder-selli...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(203): WP_Hook->apply_filters('[preorder-selli...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(240): apply_filters('the_content', '[preorder-selli...')
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\kid-toys-store\pa
+
+2018-10-26T15:01:30+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on boolean in C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-selling-checkout.php:60
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\customer-sell-preorders\admin\preorder-functions.php(64): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(319): customer_preorder_sell_checkout('', '', 'preorder-sellin...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(preord...', 'do_shortcode_ta...', '[preorder-selli...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): do_shortcode('[preorder-selli...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(203): WP_Hook->apply_filters('[preorder-selli...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(240): apply_filters('the_content', '[preorder-selli...')
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\kid-toys-store\pa
+

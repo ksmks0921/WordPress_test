@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kid Toys Store\n"
+"POT-Creation-Date: 2016-02-11 19:00+0530\n"
+"PO-Revision-Date: 2016-02-11 19:00+0530\n"
+"Last-Translator: \n"
+"Language-Team:ThemesCaliber <support@themescaliber.com>\n"
+"Language: English\n"
+"MIME-Version: 1.2.4\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"                                                    
+
+#: 404.php:12
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:13
+msgid "Looks like you have taken a wrong turn"
+msgstr ""
+
+#: 404.php:14
+#: no-results.php:22
+msgid "Don't worry it happens to the best of us."
+msgstr ""
+
+#: 404.php:16
+#: no-results.php:24
+msgid "Back to Home Page"
+msgstr ""
+
+#: comments.php:22
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:31
+msgid "comments title"
+msgstr ""
+
+#: comments.php:57
+msgid "'Comments are closed."
+msgstr ""
+
+#: footer.php:31
+msgid "Copyright 2018"
+msgstr ""
+
+#: functions.php:32
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:75
+msgid "Thank You!!!!!"
+msgstr ""
+
+#: functions.php:76
+msgid "Much grateful to you for choosing our Kids Toys Store theme from           themescaliber. we praise you for opting our services over others. we are obliged to invite you on our welcome page to render you with our outstanding services."
+msgstr ""
+
+#: functions.php:77
+msgid "Click Here..."
+msgstr ""
+
+
+#: functions.php:84
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:85
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:94
+msgid "Page Sidebar"
+msgstr ""
+
+
+#: functions.php:95
+#: functions.php:105
+msgid "Appears on Page sidebar"
+msgstr ""
+
+#: functions.php:104
+msgid "Third Column Sidebar"
+msgstr ""
+
+#: functions.php:114
+msgid "Footer Nav 1"
+msgstr ""
+
+#: functions.php:124
+msgid "Footer Nav 2"
+msgstr ""
+
+#: functions.php:134
+msgid "Footer Nav 3"
+msgstr ""
+
+#: functions.php:144
+msgid "Footer Nav 4"
+msgstr ""
+
+#: functions.php:115
+#: functions.php:125
+#: functions.php:135
+#: functions.php:144
+msgid "Appears on footer"
+msgstr ""
+
+#: functions.php:398
+msgid "Kid Toys Store Theme"
+msgstr ""
+
+#: header.php:22
+msgid "Menu"
+msgstr ""
+
+#: header.php:28
+msgid "support@example.com"
+msgstr ""
+
+#: header.php:83
+msgid "Please Install Woocommerce Plugin To display cart value"
+msgstr ""
+
+
+#: image.php:36
+#: image.php:72
+#: image.php:107
+#: image.php:142
+#: image.php:180
+#: image.php:218
+#: page.php:25
+#: single.php:36
+#: single.php:87
+#: single.php:139
+#: single.php:191
+#: single.php:244
+#: single.php:297
+msgid "Pages:"
+msgstr ""
+
+#: image.php:41
+#: image.php:77
+#: image.php:112
+#: image.php:147
+#: image.php:185
+#: image.php:223
+msgid "Edit"
+msgstr ""
+
+#: archive.php:38
+#: archive.php:70
+#: archive.php:101
+#: archive.php:132
+#: archive.php:165
+#: archive.php:200
+#: index.php:43
+#: index.php:75
+#: index.php:106
+#: index.php:137
+#: index.php:170
+#: index.php:204
+#: search.php:38
+#: search.php:71
+#: search.php:103
+#: search.php:135
+#: search.php:169
+#: search.php:205
+#: single.php:58
+#: single.php:109
+#: single.php:161
+#: single.php:213
+#: single.php:266
+#: single.php:319
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:39
+#: archive.php:71
+#: archive.php:102
+#: archive.php:133
+#: archive.php:166
+#: archive.php:201
+#: index.php:44
+#: index.php:76
+#: index.php:107
+#: index.php:138
+#: index.php:171
+#: index.php:205
+#: search.php:39
+#: search.php:72
+#: search.php:104
+#: search.php:136
+#: search.php:170
+#: search.php:206
+#: single.php:55
+#: single.php:106
+#: single.php:158
+#: single.php:210
+#: single.php:263
+#: single.php:316
+msgid "Next page"
+msgstr ""
+
+#: archive.php:40
+#: archive.php:72
+#: archive.php:103
+#: archive.php:134
+#: archive.php:167
+#: archive.php:202
+#: index.php:45
+#: index.php:77
+#: index.php:108
+#: index.php:139
+#: index.php:172
+#: index.php:206
+#: search.php:40
+#: search.php:73
+#: search.php:105
+#: search.php:137
+#: search.php:171
+#: search.php:207
+#: single.php:40
+#: single.php:91
+#: single.php:143
+#: single.php:195
+#: single.php:248
+#: single.php:301
+msgid "page"
+msgstr ""
+
+#: no-results.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:17
+msgid "Ready to publish your first post? Get started here."
+msgstr ""
+
+#: no-results.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: searchform.php:10
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: searchform.php:10
+msgid "Placeholder"
+msgstr ""
+
+#: searchform.php:12
+msgid "Submit Button"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: single.php:56
+#: single.php:107
+#: single.php:159
+#: single.php:211
+#: single.php:264
+#: single.php:317
+msgid "Next post:"
+msgstr ""
+
+#: single.php:59
+#: single.php:110
+#: single.php:162
+#: single.php:214
+#: single.php:267
+#: single.php:320
+msgid "Previous post:"
+msgstr ""
+
+#: single.php:50
+#: single.php:101
+#: single.php:153
+#: single.php:205
+#: single.php:258
+#: single.php:311
+msgid "Parent Post Link"
+msgstr ""
+
+
+#: page-template/custom-frontpage.php:42
+msgid "SHOP NOW"
+msgstr ""
+
+#: page-template/custom-frontpage.php:70
+msgid "Most Popular Products"
+msgstr ""
+
+#: template-parts/content-audio.php:42
+#: template-parts/content-gallery.php:30
+#: template-parts/content-image.php:25
+#: template-parts/content-video.php:41
+#: template-parts/grid-layout.php:20
+#: template-parts/content.php:25
+#: single.php:22
+#: single.php:74
+#: single.php:125
+#: single.php:177
+#: single.php:231
+#: single.php:284
+msgid "0 Comments"
+msgstr ""
+
+#: template-parts/content-audio.php:45
+#: template-parts/content-gallery.php:33
+#: template-parts/content-image.php:28
+#: template-parts/content-video.php:44
+#: template-parts/grid-layout.php:23
+#: template-parts/content.php:28
+msgid "Read Full"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Description of what this panel does."
+msgstr ""
+
+#: inc/customizer.php:26
+msgid "Theme Layout Settings"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Do you want this section."
+msgstr ""
+
+#: inc/customizer.php:43
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:33
+#: inc/customizer.php:44
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Three Columns"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Four Columns"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid 'Typography'
+msgstr ""
+
+#: inc/customizer.php:161
+msgid 'Paragraph Color'
+msgstr ""
+
+#: inc/customizer.php:175
+msgid 'Paragraph Fonts'
+msgstr ""
+
+#: inc/customizer.php:186
+msgid 'Paragraph Font Size'
+msgstr ""
+
+#: inc/customizer.php:198
+msgid '"a" Tag Color'
+msgstr ""
+
+#: inc/customizer.php:212
+msgid '"a" Tag Fonts'
+msgstr ""
+
+#: inc/customizer.php:223
+msgid '"li" Tag Color'
+msgstr ""
+
+#: inc/customizer.php:227
+msgid '"li" Tag Fonts'
+msgstr ""
+
+#: inc/customizer.php:248
+msgid 'H1 Color'
+msgstr ""
+
+
+#: inc/customizer.php:262
+msgid 'H1 Fonts'
+msgstr ""
+
+#: inc/customizer.php:274
+msgid 'H1 Font Size'
+msgstr ""
+
+#: inc/customizer.php:286
+msgid 'H2 Color'
+msgstr ""
+
+
+#: inc/customizer.php:300
+msgid 'H2 Fonts'
+msgstr ""
+
+#: inc/customizer.php:312
+msgid 'H2 Font Size'
+msgstr ""
+
+#: inc/customizer.php:324
+msgid 'H3 Color'
+msgstr ""
+
+
+#: inc/customizer.php:338
+msgid 'H3 Fonts'
+msgstr ""
+
+#: inc/customizer.php:350
+msgid 'H3 Font Size'
+msgstr ""
+
+#: inc/customizer.php:362
+msgid 'H4 Color'
+msgstr ""
+
+#: inc/customizer.php:376
+msgid 'H4 Fonts'
+msgstr ""
+
+#: inc/customizer.php:388
+msgid 'H4 Font Size'
+msgstr ""
+
+#: inc/customizer.php:400
+msgid 'H5 Color'
+msgstr ""
+
+
+#: inc/customizer.php:414
+msgid 'H5 Fonts'
+msgstr ""
+
+#: inc/customizer.php:426
+msgid 'H5 Font Size'
+msgstr ""
+
+#: inc/customizer.php:438
+msgid 'H6 Color'
+msgstr ""
+
+
+#: inc/customizer.php:452
+msgid 'H6 Fonts'
+msgstr ""
+
+#: inc/customizer.php:464
+msgid 'H6 Font Size'
+msgstr ""
+
+#: inc/customizer.php:472
+msgid "Top Header"
+msgstr ""
+
+#: inc/customizer.php:484
+msgid "Email"
+msgstr ""
+
+#: inc/customizer.php:496
+msgid "Phone"
+msgstr ""
+
+#: inc/customizer.php:508
+msgid "Cart Link"
+msgstr ""
+
+#: inc/customizer.php:520
+msgid "Add My Account Link"
+msgstr ""
+
+#: inc/customizer.php:528
+msgid "Social Icon Section"
+msgstr ""
+
+#: inc/customizer.php:473
+#: inc/customizer.php:529
+msgid "Add Header Content here"
+msgstr ""
+
+#: inc/customizer.php:539
+msgid "Add Youtube link"
+msgstr ""
+
+#: inc/customizer.php:550
+msgid "Add Facebook link"
+msgstr ""
+
+#: inc/customizer.php:561
+msgid "Add Twitter link"
+msgstr ""
+
+#: inc/customizer.php:572
+msgid "Add RSS link"
+msgstr ""
+
+#: inc/customizer.php:580
+msgid "Slider Settings."
+msgstr ""
+
+#: inc/customizer.php:591
+msgid "Show / Hide slider"
+msgstr ""
+
+#: inc/customizer.php:603
+msgid "Select Slide Image Page"
+msgstr ""
+
+#: inc/customizer.php:612
+msgid "Featured Product"
+msgstr ""
+
+#: inc/customizer.php:613
+msgid "This section will appear below the slider."
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer.php:633
+msgid "Select Product Page"
+msgstr ""
+
+#: inc/customizer.php:640
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:641
+msgid "This section will appear in the footer."
+msgstr ""
+
+#: inc/customizer.php:650
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:734
+msgid "Kid Toys Store"
+msgstr ""
+
+#: inc/customizer.php:735
+msgid "Go Pro"
+msgstr ""

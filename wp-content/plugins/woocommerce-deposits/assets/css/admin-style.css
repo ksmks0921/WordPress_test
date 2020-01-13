@@ -1,0 +1,29 @@
+#woocommerce-coupon-data ul.wc-tabs li.deposits_tab a:before,
+#woocommerce-product-data ul.wc-tabs li.deposits_tab a:before,
+.woocommerce ul.wc-tabs li.deposits_tab a:before
+{
+  content: '\002153';
+}
+
+.widefat .column-order_status mark.partially-paid:after{
+  font-family:WooCommerce;
+  speak:none;
+  font-weight:400;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  -webkit-font-smoothing:antialiased;
+  margin:0;
+  text-indent:0;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  text-align:center;
+}
+
+.widefat .column-order_status mark.partially-paid:after{
+  content: "\e011";
+  color: #ffba00;
+}

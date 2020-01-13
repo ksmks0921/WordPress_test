@@ -1,0 +1,100 @@
+2018-11-17T02:41:54+00:00 INFO Generating payment form for order 597. Notify URL: http://toyspedia.com/preview/wc-api/WC_Gateway_Paypal/
+2018-11-17T02:41:54+00:00 INFO PayPal Request Args for order 597: Array
+(
+    [cmd] => _cart
+    [business] => ko915@wordpress.com
+    [no_note] => 1
+    [currency_code] => SGD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://toyspedia.com/preview/checkout/order-received/597/?key=wc_order_5bef7ff21bb19&utm_nooverride=1
+    [cancel_return] => http://toyspedia.com/preview/cart/?cancel_order=true&order=wc_order_5bef7ff21bb19&order_id=597&redirect&_wpnonce=7c34e80f3a
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [bn] => WooThemes_Cart
+    [invoice] => WC-597
+    [custom] => {"order_id":597,"order_key":"wc_order_5bef7ff21bb19"}
+    [notify_url] => http://toyspedia.com/preview/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_b] => ***
+    [address_override] => 0
+    [no_shipping] => 0
+    [tax_cart] => 0.00
+    [item_name_1] => Brand4
+    [quantity_1] => 1
+    [amount_1] => 16.48
+    [item_number_1] => 
+    [item_name_2] => CosBaby Toy 5
+    [quantity_2] => 1
+    [amount_2] => 55
+    [item_number_2] => 
+    [item_name_3] => Hot Toy 2
+    [quantity_3] => 1
+    [amount_3] => 16.5
+    [item_number_3] => 
+    [item_name_4] => Hot Toy
+    [quantity_4] => 1
+    [amount_4] => 55
+    [item_number_4] => 
+)
+
+2018-11-17T02:49:53+00:00 INFO Generating payment form for order 597. Notify URL: http://toyspedia.com/preview/wc-api/WC_Gateway_Paypal/
+2018-11-17T02:49:53+00:00 INFO PayPal Request Args for order 597: Array
+(
+    [cmd] => _cart
+    [business] => ko915@wordpress.com
+    [no_note] => 1
+    [currency_code] => SGD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://toyspedia.com/preview/checkout/order-received/597/?key=wc_order_5bef7ff21bb19&utm_nooverride=1
+    [cancel_return] => http://toyspedia.com/preview/cart/?cancel_order=true&order=wc_order_5bef7ff21bb19&order_id=597&redirect&_wpnonce=7c34e80f3a
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [bn] => WooThemes_Cart
+    [invoice] => WC-597
+    [custom] => {"order_id":597,"order_key":"wc_order_5bef7ff21bb19"}
+    [notify_url] => http://toyspedia.com/preview/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_b] => ***
+    [address_override] => 0
+    [no_shipping] => 0
+    [tax_cart] => 0.00
+    [item_name_1] => Brand4
+    [quantity_1] => 1
+    [amount_1] => 16.48
+    [item_number_1] => 
+    [item_name_2] => CosBaby Toy 5
+    [quantity_2] => 1
+    [amount_2] => 55
+    [item_number_2] => 
+    [item_name_3] => Hot Toy 2
+    [quantity_3] => 1
+    [amount_3] => 16.5
+    [item_number_3] => 
+    [item_name_4] => Hot Toy
+    [quantity_4] => 1
+    [amount_4] => 55
+    [item_number_4] => 
+)
+

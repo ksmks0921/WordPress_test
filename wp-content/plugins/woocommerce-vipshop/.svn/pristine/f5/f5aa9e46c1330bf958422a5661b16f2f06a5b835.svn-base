@@ -1,0 +1,369 @@
+<?php
+class class_wc_roles_category_product {
+
+	/**
+	 * Constructor
+	 */
+	public $action_removed = false;
+	public $user_vipshop = false;
+	public $check_rule = "";
+	public function __construct() {
+		add_action( 'woocommerce_before_shop_loop_item', array($this, 'vipshop_before_shop_loop_item'), 0 );
+		add_action( 'woocommerce_after_shop_loop_item', array(&$this, 'vipshop_after_shop_loop_item'), 0 );		
+		//For show product
+		add_action( 'woocommerce_loaded', array( $this, 'woocommerce_loaded' ) );
+
+		/* Add form */
+		add_action( 'product_cat_add_form_fields', array( $this, 'add_cat_fields' ) );
+		add_action( 'product_cat_edit_form_fields', array( $this, 'edit_cat_fields' ), 10, 2 );
+		
+		add_action( 'created_term', array( $this, 'save_vip_fields' ), 10, 3 );
+		add_action( 'edit_term', array( $this, 'save_vip_fields' ), 10, 3 );			
+				
+	}
+	public function woocommerce_loaded()
+	{	
+		add_filter( 'the_posts', array( $this, 'hide_product' ) );
+	}
+
+	public function save_vip_fields( $term_id, $tt_id, $taxonomy ) 
+	{
+		//update_woocommerce_term_meta( $term_id, 'view_product', $_POST['view_product']  );
+		update_woocommerce_term_meta( $term_id, 'view_price', $_POST['view_price'] );
+		update_woocommerce_term_meta( $term_id, 'view_purchase', $_POST['view_purchase'] );
+		delete_transient( 'wc_term_counts' );
+	}
+	
+	public function edit_cat_fields( $term, $taxonomy ) {
+		
+		//$view_product	= get_woocommerce_term_meta( $term->term_id, 'view_product', true );
+		$view_price	= get_woocommerce_term_meta( $term->term_id, 'view_price', true );
+		$view_purchase	= get_woocommerce_term_meta( $term->term_id, 'view_purchase', true );
+		?>
+		<!--<tr class="">
+			<th scope="row" valign="top"><label for="display_type"><?php _e( 'Who can view this Category', 'woocommerce-brands' ); ?></label>	</th>
+			<td>
+				<select id="view_product" name="view_product" class="select short" style="">
+					<option value="everyone" <?php selected("everyone",$view_product,1);?>>Everyone</option>
+					<option value="vipshop" <?php selected("vipshop",$view_product,1);?>>VipShop User</option>
+				</select>
+			</td>
+		</tr>
+		-->
+		<tr class="">
+			<th scope="row" valign="top"><label for="display_type"><?php _e( 'Who can view prices this category', 'woocommerce-brands' ); ?></label></th>
+			<td>
+				<select id="view_price" name="view_price" class="select short" style="">
+					<option value="everyone" <?php selected("everyone",$view_price,1);?> >Everyone</option>
+					<option value="vipshop" <?php selected("vipshop",$view_price,1);?> >VipShop User</option>
+				</select>
+			</td>
+		</tr>
+		<tr class="">
+			<th scope="row" valign="top"><label for="display_type"><?php _e( 'Who can purchase this Category', 'woocommerce-brands' ); ?></label></th>
+			<td>
+				<select id="view_purchase" name="view_purchase" class="select short" style="">
+					<option value="everyone" <?php selected("everyone",$view_purchase,1);?> >Everyone</option>
+					<option value="vipshop" <?php selected("vipshop",$view_purchase,1);?> >VipShop User</option>
+				</select>
+			</td>
+		</tr>		
+		<?php
+	}
+		
+	public function add_cat_fields() {
+		?>
+	<!--	<div class="">
+			<label for="display_type"><?php _e( 'Who can view this Category', 'woocommerce-brands' ); ?></label>	
+			<select id="view_product" name="view_product" class="select short" style="">
+				<option value="everyone" selected="selected">Everyone</option>
+				<option value="vipshop">VipShop User</option>
+			</select>
+		</div>
+		-->
+		<div class="">
+			<label for="display_type"><?php _e( 'Who can view prices this category', 'woocommerce-brands' ); ?></label>	
+			<select id="view_price" name="view_price" class="select short" style="">
+				<option value="everyone" selected="selected">Everyone</option>
+				<option value="vipshop">VipShop User</option>
+			</select>
+		</div>
+		<div class="">
+			<label for="display_type"><?php _e( 'Who can purchase this Category', 'woocommerce-brands' ); ?></label>	
+			<select id="view_purchase" name="view_purchase" class="select short" style="">
+				<option value="everyone" selected="selected">Everyone</option>
+				<option value="vipshop">VipShop User</option>
+			</select>
+		</div>
+
+		<?php
+	}
+	
+	public function hide_product( $posts )
+	{	
+		$_return = array();
+		if ( is_admin() ) return $posts;
+		//
+		//if ( is_single() ) return $posts;
+		
+		$setting=get_option("pw_vipshop_options");
+		(!isset($setting['rule_active']) ? $setting['rule_active']="deactive" : "" );
+		if($setting['rule_active']!="deactive")
+		{
+			if ( !empty( $posts ) ) {
+				foreach ( $posts as $post ) {
+					$view_product = get_post_meta( $post->ID, 'view_product', true );
+					if($view_product=="vipshop")
+					{
+						$user_check=$this->check_rule_user();
+						if($user_check==false)
+							continue; // hide product
+						else
+							array_push( $_return, $post );
+					}
+					else
+						array_push( $_return, $post );
+
+				}
+			}
+
+		} else {
+
+			return $posts;
+
+		}
+
+		return $_return;
+	}
+	public function vipshop_before_shop_loop_item() {
+		global $post, $product;
+
+		if ( $this->action_removed ) {
+			add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10 );
+		}
+
+		if ( !$this->check_user_can_purchase( $product ) ) {
+			$this->action_removed = true;
+			remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10 );
+		}
+	}
+	
+	public function vipshop_after_shop_loop_item() {
+		global $post, $product;
+		//echo $product->id;
+		if ( !$this->check_user_can_purchase( $product ) )
+		{
+			$setting=get_option("pw_vipshop_setting");
+			(!isset($setting['add_to_cart_text_cat']) ? $setting['add_to_cart_text_cat']="" : "" );			
+			$label = wptexturize( $setting['add_to_cart_text_cat'] );
+			if ( empty( $label ) ) 
+				return;
+
+			$link = get_permalink( $post->ID );
+			echo apply_filters( 'vipshop_add_to_cart_link', sprintf( '<a href="%s" data-product_id="%s" class="button product_type_%s">%s</a>', $link, $product->id, $product->product_type, $label ) );
+		}
+	}
+	public function check_user_can_purchase( $product ) {
+		$flag=false;
+		$view_purchase = get_post_meta( $product->id, 'view_purchase', true );
+		$can_view_price=$this->check_user_can_view_price($product);
+		if($can_view_price)
+		{
+			if($view_purchase=="vipshop")
+			{
+				if ( !is_user_logged_in() )
+					return false;
+				
+				if($this->check_rule=="")
+					$flag=$this->check_rule_user();
+				else
+					$flag=$this->check_rule;				
+
+			}
+			else
+			{
+				$flag=true;
+				$product_cats = wp_get_post_terms( $product->id, 'product_cat', array("fields" => "ids"));				
+				//print_r($product_cats);
+				foreach($product_cats as $cat)
+				{
+					$view_purchase_cat	= get_woocommerce_term_meta( $cat, 'view_purchase', true );
+					if($view_purchase_cat=="vipshop")
+					{
+						if($this->check_rule=="")
+							$flag=$this->check_rule_user();
+						else
+							$flag=$this->check_rule;						
+					}
+					else
+						$flag=true;
+				}
+			}
+		}
+		else
+		{
+			$flag=false;
+		}
+		return apply_filters( 'check_user_purchase', $flag, $product );
+	}
+	public function check_user_can_view_price( $product ) 
+	{
+		$flag=false;
+		
+		$view_price = get_post_meta( $product->id, 'view_price', true );
+
+		if($view_price=="vipshop")
+		{
+			if ( !is_user_logged_in() )
+				return false;
+			
+			if($this->check_rule=="")
+				$flag=$this->check_rule_user();
+			else
+				$flag=$this->check_rule;
+		}
+		else
+		{
+			$flag=true;
+			$product_cats = wp_get_post_terms( $product->id, 'product_cat', array("fields" => "ids"));				
+			//print_r($product_cats);
+			foreach($product_cats as $cat)
+			{
+				$view_purchase_cat	= get_woocommerce_term_meta( $cat, 'view_price', true );
+				if($view_purchase_cat=="vipshop")
+				{
+					if($this->check_rule=="")
+						$flag=$this->check_rule_user();
+					else
+						$flag=$this->check_rule;						
+				}
+				else
+					$flag=true;
+			}
+		}
+		return apply_filters( 'check_user_view_price', $flag, $product );
+	}
+
+	public function check_rule_user()
+	{
+		$flag=false;
+		
+		$setting=get_option("pw_vipshop_options");
+		(!isset($setting['rule_active']) ? $setting['rule_active']="deactive" : "" );
+		(!isset($setting['total_purchase']) ? $setting['total_purchase']="no" : "" );
+		(!isset($setting['total_amount']) ? $setting['total_amount']="" : "" );
+		(!isset($setting['number_purchase']) ? $setting['number_purchase']="no" : "" );
+		(!isset($setting['number_amount']) ? $setting['number_amount']="" : "" );	
+		(!isset($setting['users']) ? $setting['users']=array() : "" );
+		(!isset($setting['auto_reg']) ? $setting['auto_reg']="no" : "" );
+		
+		if($setting['auto_reg']=="yes")
+		{
+			$setting['total_purchase']="yes";
+			$setting['number_purchase']="yes";
+			$setting['number_amount']=0;
+			$setting['total_amount']=0;
+		}
+		$wc_vipshop_users = get_user_meta( get_current_user_id(), 'wc_vipshop_users', true );
+		if($wc_vipshop_users=="yes")
+		{
+			$this->check_rule = true;			
+			return true;
+		}
+		
+		if($setting['rule_active']=="deactive")
+		{
+			$this->check_rule = true;			
+			return true;
+		}
+		$meta=$setting['users'];
+		if(in_array(get_current_user_id() ,$meta))
+		{
+			$this->check_rule = true;			
+			return true;
+		}
+		$order_count=0;$order_price=0;
+		$order_count=$this->get_order_total_user(get_current_user_id());
+		$order_price=$this->get_order_total_price_user(get_current_user_id());
+
+		if($setting['total_purchase']=="yes" )
+		{
+			if($setting['total_amount']<=$order_price)
+				$flag=true;
+			else
+			{
+				$flag=false;
+				$this->check_rule = $flag;
+				return $flag;		
+			}
+		}
+		
+		
+		if($setting['number_purchase']=="yes")
+		{
+			if($setting['number_amount']<=$order_count)
+				$flag=true;
+			else
+			{
+				$flag=false;
+				$this->check_rule = $flag;
+				return $flag;
+			}		
+		}	
+		$this->check_rule = $flag;
+		
+		return $flag;
+	}
+
+	public function get_order_total_user($user_id)
+	{
+		global $wpdb;
+		
+		if ( ! $count = get_user_meta( $user_id, '_order_count', true ) ) {
+
+			$count = $wpdb->get_var( "SELECT COUNT(*)
+				FROM $wpdb->posts as posts
+
+				LEFT JOIN {$wpdb->postmeta} AS meta ON posts.ID = meta.post_id
+
+				WHERE   meta.meta_key       = '_customer_user'
+				AND     posts.post_type     IN ('" . implode( "','", wc_get_order_types( 'order-count' ) ) . "')
+				AND     posts.post_status   = 'wc-completed'
+				AND     meta_value          = $user_id
+			" );
+
+			update_user_meta( $user_id, '_order_count', $count );
+		}
+		return absint( $count );
+	}
+	public function get_order_total_price_user( $user_id )
+	{
+		
+		global $wpdb;
+		if ( ! $spent = get_user_meta( $user_id, '_money_spent', true ) ) {
+
+			$spent = $wpdb->get_var( "SELECT SUM(meta2.meta_value)
+				FROM $wpdb->posts as posts
+
+				LEFT JOIN {$wpdb->postmeta} AS meta ON posts.ID = meta.post_id
+				LEFT JOIN {$wpdb->postmeta} AS meta2 ON posts.ID = meta2.post_id
+
+				WHERE   meta.meta_key       = '_customer_user'
+				AND     meta.meta_value     = $user_id
+				AND     posts.post_type     IN ('" . implode( "','", wc_get_order_types( 'reports' ) ) . "')
+				AND     posts.post_status   = 'wc-completed'
+				AND     meta2.meta_key      = '_order_total'
+			" );
+
+			update_user_meta( $user_id, '_money_spent', $spent );
+		}
+
+		return $spent;
+		//return wc_price( $spent );
+	}	
+}
+new class_wc_roles_category_product();
+
+
+
+?>

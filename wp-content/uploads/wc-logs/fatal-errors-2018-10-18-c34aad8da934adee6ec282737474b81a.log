@@ -1,0 +1,112 @@
+2018-10-18T11:16:32+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate(false)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(586): do_action('activate_buy-se...', false)
+#4 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(43): activate_plugin('buy-sell-transf...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-10-18T11:16:34+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(180): do_action('activate_buy-se...')
+#4 {main}
+  thrown
+
+2018-10-18T11:16:34+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(180): do_action('activate_buy-se...')
+#4 {main}
+  thrown
+
+2018-10-18T11:17:56+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate(false)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(586): do_action('activate_buy-se...', false)
+#4 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(43): activate_plugin('buy-sell-transf...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-10-18T11:17:57+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(180): do_action('activate_buy-se...')
+#4 {main}
+  thrown
+
+2018-10-18T11:17:58+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(180): do_action('activate_buy-se...')
+#4 {main}
+  thrown
+
+2018-10-18T11:23:44+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate(false)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(586): do_action('activate_buy-se...', false)
+#4 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(43): activate_plugin('buy-sell-transf...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-10-18T11:23:45+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(180): do_action('activate_buy-se...')
+#4 {main}
+  thrown
+
+2018-10-18T11:23:45+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(180): do_action('activate_buy-se...')
+#4 {main}
+  thrown
+
+2018-10-18T11:36:43+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate(false)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(586): do_action('activate_buy-se...', false)
+#4 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(43): activate_plugin('buy-sell-transf...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-10-18T11:36:45+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(180): do_action('activate_buy-se...')
+#4 {main}
+  thrown
+
+2018-10-18T11:36:45+00:00 CRITICAL Uncaught Error: Class 'LeonPluginActivate' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\buy-sell-transfer-platform-for-woocommerce\buy-sell-transfer-platform-for-woocommerce.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): LeonPlugin->activate('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(180): do_action('activate_buy-se...')
+#4 {main}
+  thrown
+
